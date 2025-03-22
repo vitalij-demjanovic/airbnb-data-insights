@@ -16,7 +16,3 @@ def get_coordinates(address):
             return geometry['lat'], geometry['lng']
 
     raise ValueError(f"Neplatná odpoveď na adresu: {address}")
-
-
-coordinates = get_coordinates("Kartepe, Kocaeli, Turkey")
-print("Zemepisná šírka a dĺžka:", coordinates)
